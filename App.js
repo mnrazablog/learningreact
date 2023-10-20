@@ -6,14 +6,15 @@ import Header from './components/Header';
 
 import Footer from './components/Footer';
 import RestaurantCard from './components/restaurantCard';
+import RestaurantList from './components/RestaurantList';
 
 function App() {
-  return(
+  return (
     <>
-    <Header/>
-    <RestaurantCard/>
-    <Footer/>
-  </>
+      <Header />
+     <RestaurantList/>
+      <Footer />
+    </>
   );
 }
 
